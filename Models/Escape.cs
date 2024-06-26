@@ -2,7 +2,7 @@ static class escape{
 
 private static string [] incognitasSalas{get;set;}
 
-private static int estadoJuego{get;set;}
+private static int estadoJuego = 1;
 
 private static void InicializarJuego()
 {
@@ -14,12 +14,29 @@ private static void InicializarJuego()
     incognitasSalas [4] = " ";
 }
 
-private static int GetEstadoJuego()
+public static int GetEstadoJuego()
 {
-    int estado = 1;
-    if()
-
     return estadoJuego;
+}
+public static bool ResolverSala(int Sala, string Incognita){
+    if(incognitasSalas.Length > 0){
+        if(Sala-1 == estadoJuego){
+            if(Incognita == incognitasSalas[Sala-1]){
+                estadoJuego++;
+            return true;
+            }
+            else{
+                return false;
+            }
+        }
+        else{
+        return false;
+        }
+    }else{
+        InicializarJuego();
+        return false;
+    }
+    
 }
 
 

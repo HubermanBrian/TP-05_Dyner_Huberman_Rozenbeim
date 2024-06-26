@@ -17,4 +17,11 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Comenzar(){
+        ViewBag.EstadoJuego = escape.GetEstadoJuego();
+        return View(ViewBag.EstadoJuego);
+    }
+    public IActionResult Tutorial(){
+        return View();
+    }
 }
