@@ -19349,6 +19349,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "z:\\prog2024\\TP 05_Dyner_Huberman_Rozenbeim\\Views\\Home\\Tutorial.cshtml",
+      "TargetPath": "Views\\Home\\Tutorial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "z:\\prog2024\\TP 05_Dyner_Huberman_Rozenbeim\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
