@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TP 05_Dyner_Huberman_Rozenbeim.props" />
+</Project>
